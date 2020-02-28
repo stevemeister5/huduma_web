@@ -22,6 +22,8 @@ import ProductSection from "./Sections/ProductSection.js";
 import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/WorkSection.js";
 
+import GetAppIcon from '@material-ui/icons/GetApp';
+
 const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
@@ -57,12 +59,12 @@ export default function LandingPage(props) {
               <Button
                 color="rose"
                 size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                href= "#Section1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="fas fa-play" />
-                Watch video
+                <GetAppIcon />
               </Button>
             </GridItem>
           </GridContainer>
@@ -70,7 +72,7 @@ export default function LandingPage(props) {
       </Parallax>
       <div className={classNames(classes.main)}>
         <div className={classes.container}>
-          <ProductSection />
+          <ProductSection id="Section1"/>
           <TeamSection />
           <WorkSection />
         </div>
