@@ -22,10 +22,9 @@ export default function WorkSection() {
         <GridItem cs={12} sm={12} md={8}>
           <h2 className={classes.title}>Work with us</h2>
           <h4 className={classes.description}>
-            Divide details about your product or agency work into parts. Write a
-            few lines about each one and contact us about any further
-            collaboration. We will responde get back to you in a couple of
-            hours.
+            We are a startup working on the cutting edge of technology. As such we dont believe in the term 'employee and boss', We are all dreamers and leaders
+            We always need more talent and drive. SO if you see yourself making a change in the world 
+            Contact us by filling the form down below
           </h4>
           <form>
             <GridContainer>
