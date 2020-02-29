@@ -36,7 +36,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="Huduma-AI+"
+        brand="Huduma+"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
